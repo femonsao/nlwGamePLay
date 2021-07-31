@@ -22,8 +22,8 @@ export function AuthRoutes() {
         }
       }
     >
-      <Screen name="Home" component={Home} />
       <Screen name="Signin" component={Signin} />
+      <Screen name="Home" component={Home} />
       <Screen name="AppointmentsDetails" component={AppointmentsDetails} />
       <Screen name="AppointmentsCreate" component={AppointmentsCreate} />
     </Navigator>

@@ -10,6 +10,8 @@ export const styles =  StyleSheet.create({
         fontFamily: theme.fonts.text400,
         fontSize: 13,
         marginTop:4,
-        textAlign: 'center'
+        textAlign: 'center',
+        borderWidth:1,
+        borderBottomColor: theme.colors.secondary50
     },
 })

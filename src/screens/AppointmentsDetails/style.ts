@@ -9,7 +9,6 @@ export const styles= StyleSheet.create({
     bannerContainr:{
         width: '100%',
         height:234,
-        marginBottom:30
     },title:{
         fontSize: 28,
         fontFamily: theme.fonts.title700,
@@ -17,7 +16,8 @@ export const styles= StyleSheet.create({
     },subtitle:{
         fontSize: 13,
         fontFamily: theme.fonts.title700,
-        color: theme.colors.heading
+        color: theme.colors.heading,
+        lineHeight:21
     },bannerContent:{
         flex:1,
         justifyContent:'flex-end',

@@ -137,6 +137,7 @@ export function Home() {
           <Appointment data={item} onPress={handleAppointmentsDatails} />
         )}
         ItemSeparatorComponent={() => <ListDivider />}
+        contentContainerStyle={{ paddingBottom: 69 }}
         style={style.matches}
         showsVerticalScrollIndicator={false}
       />

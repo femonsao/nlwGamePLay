@@ -21,6 +21,26 @@ export function Guilds({ handleGuildSeleted }: Props) {
       name: "War",
       icon: 'image.png',
       owner: false,
+    },{
+      id: "3",
+      name: "War",
+      icon: 'image.png',
+      owner: false,
+    },{
+      id: "4",
+      name: "War",
+      icon: 'image.png',
+      owner: false,
+    },{
+      id: "5",
+      name: "War",
+      icon: 'image.png',
+      owner: false,
+    },{
+      id: "6",
+      name: "War",
+      icon: 'image.png',
+      owner: false,
     },
   ];
   return (
@@ -31,7 +51,9 @@ export function Guilds({ handleGuildSeleted }: Props) {
         renderItem={({ item }) => (
           <Guild data={item} onPress={() =>handleGuildSeleted(item)} />
         )}
-        ItemSeparatorComponent={() => <ListDivider />}
+        contentContainerStyle={{ paddingBottom: 68,paddingTop: 103 }}
+        ListHeaderComponent={ () => <ListDivider  isCentered/>}
+        ItemSeparatorComponent={() => <ListDivider  isCentered/>}
         style={styles.guilds}
       />
     </View>
