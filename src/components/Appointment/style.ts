@@ -48,10 +48,8 @@ export const style = StyleSheet.create({
   },
   player: {
     fontFamily: theme.fonts.text500,
-    fontSize:13,
+    fontSize: 13,
     marginLeft: 7,
-    marginRight: 24
-
-
+    marginRight: 24,
   },
 });
